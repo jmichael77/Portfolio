@@ -63,6 +63,18 @@ h2 {
 
 /* About Me Section */
 
+@media (min-width: 1281px) {
+  .img-circle {
+    width: 100%;
+  }
+}
+
+@media (max-width: 568px) {
+  .img-circle {
+    width: 100%;
+  }
+}
+
 .img-circle {
   border-radius: 10%;
 }
