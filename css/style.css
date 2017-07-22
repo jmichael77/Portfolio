@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,400,700|Poppins');
+
+body {
+  font-family: Muli, sans-serif;
+  background: #eceff1;
+}
+
+/* NavBar Section */
+
+#logo {
+  padding: 10px;
+  width: 100px;
+}
+
+ul li a {
+  color: #37474f;
+  font-weight: 700;
+}
+
+.burger {
+  color: #37474f;
+}
+
+/* First Parallax Section */
+
+.move-up {
+  margin-bottom: 10%; 
+}
+
+#para-1-img {
+  margin-bottom: 10%;
+}
+
+.info {
+  font-size: 35px;
+  font-family: poppins, sans-serif;
+  line-height: 38px;
+}
+
+.btn-large {
+  border-radius: 5px;
+}
+
+/* Work Highlights Section */
+
+h2 {
+  color: #37474f;
+  font-weight: 300;
+  font-family: muli, sans-serif;
+}
+
+.card-content a {
+  font-weight: 700;
+  color: #E53935;
+}
+
+/* Second Parallax Section */
+
+#para-2 {
+  height: 300px;
+  margin-top: 5%;
+}
+
+/* About Me Section */
+
+.img-circle {
+  border-radius: 10%;
+}
+
+#about-me {
+  font-size: 18px;
+}
+
+/* Contact Section */
+
+.social {
+  width: 10%;
+  margin: 4%;
+}
+
+/* Third Parallax Section */
+
+#para-3 {
+  margin-top: 5%;
+  height: 300px;
+}
+
+#para-3-img {
+  margin-bottom: -20%;
+}
+
