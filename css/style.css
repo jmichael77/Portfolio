@@ -5,6 +5,12 @@ body {
   background: #eceff1;
 }
 
+/* All Buttons */
+
+.btn-large {
+  border-radius: 5px;
+}
+
 /* NavBar Section */
 
 #logo {
@@ -37,8 +43,14 @@ ul li a {
   line-height: 38px;
 }
 
-.btn-large {
-  border-radius: 5px;
+#plane-animate {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+#plane-animate:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 /* Work Highlights Section */
@@ -49,9 +61,8 @@ h2 {
   font-family: muli, sans-serif;
 }
 
-.card-content a {
+.card .card-reveal .card-title {
   font-weight: 700;
-  color: #E53935;
 }
 
 /* Second Parallax Section */
