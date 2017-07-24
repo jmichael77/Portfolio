@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:200,400,700|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,400,700|Poppins:300,400,500');
 
 body {
   font-family: Muli, sans-serif;
@@ -37,9 +37,15 @@ ul li a {
   margin-bottom: 10%;
 }
 
+#my-name {
+  font-size: 40px;
+  font-weight: 500;
+}
+
 .info {
   font-size: 35px;
   font-family: poppins, sans-serif;
+  font-weight: 300;
   line-height: 38px;
 }
 
@@ -63,6 +69,11 @@ h2 {
 
 .card .card-reveal .card-title {
   font-weight: 700;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
 }
 
 /* Second Parallax Section */
